@@ -23,9 +23,9 @@ int main(void)
         }
 
         printf("  ");
-        printf("#");
+        // printf("#");
 
-        for (int x = 0; x < row; x++)
+        for (int x = 0; x <= row; x++)
         {
             printf("#");
             
